@@ -1,0 +1,26 @@
+/* TaskListTable.css */
+
+.task-list-table-container {
+    margin-bottom: 20px;
+}
+
+.task-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-list-table th,
+.task-list-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.task-list-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.task-list-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
